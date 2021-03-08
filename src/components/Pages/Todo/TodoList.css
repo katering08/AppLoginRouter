@@ -1,0 +1,83 @@
+.striked {
+    text-decoration: underline;
+  }
+
+  .TodoAddNew{
+    margin-top: 2rem;
+  }
+
+  .Todo-Input{
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    display: flex;
+    color: #fff;
+    display: flex;
+  }  
+  
+  .TodoList{
+      display: flex;
+      color:#fff;
+      margin-top: 2rem;
+      margin-bottom: 2px;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      text-align: left;
+  }
+    .content{
+      display: flex;
+      margin-top: 0.8rem;
+      margin-bottom: 3px;
+      background-color: rgb(6, 117, 84);
+      justify-content: space-between;
+      height: 4.5rem;
+      align-items: center;
+      border-radius: 4px;
+    }
+
+  .description{
+    height: 2rem;
+    margin-left: 1rem;
+    margin-top: 2px;
+    width: 22.1rem;
+  }
+
+  .icons{
+      display: flex;
+      font-size: 1.7rem;
+      margin-right: 8px;
+  }
+
+  .delete{
+    background-color: rgb(199, 8, 8);
+    border-radius: 4px;
+    padding: 1px;
+    margin-left: 6px;
+    border-color: white;
+    border: 1rem;
+    margin-right: 10px;
+  }
+
+  .delete:hover{
+    background-color: rgb(252, 249, 249);
+    color: rgb(199, 8, 8);
+    border-color: rgb(199, 8, 8);
+  }
+
+  .edit{
+    background-color: rgb(245, 148, 21);
+    border-radius: 4px;
+    padding: 1px;
+    margin-left: 5px;
+    border-color: white;
+    border: 1rem;
+  }
+
+  .edit:hover{
+    background-color: rgb(255, 255, 254);
+    color: rgb(245, 148, 21);
+    border-color: rgb(245, 148, 21);
+  }
+
+

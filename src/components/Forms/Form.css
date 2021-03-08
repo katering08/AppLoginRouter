@@ -1,0 +1,13 @@
+.style{
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 2rem;
+    height: 40rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+@media (max-width: 764px) {
+    .style{
+        background-color: black;
+        margin-top: 4rem;
+    }
+  }

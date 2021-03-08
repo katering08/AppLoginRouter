@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.Login{
+  background-image: url("./imgs/fondo4.jpg");
+  align-items: center;
+  background-size: cover;
+  height: max-content;
+  
+}
+
+.Fondo-Login{
+  background-color: rgba(17, 17, 17, 0.719);
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+  height: 100%;
+  padding-bottom: 10rem;
+}
+
+.Todo-App{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 650px;
+  background: #050505e1;
+  text-align: center;
+  margin: 0px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+@media (max-width: 764px) {
+  .Login{
+      background-image: none;
+      background-color: black;
+  }
+  .Fondo-Login{
+    background-color: black;
+    padding-bottom: 1rem;
+  }
+}
